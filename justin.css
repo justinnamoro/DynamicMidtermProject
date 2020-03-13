@@ -1,0 +1,44 @@
+#front{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+#bookcover{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(170, 170, 170);
+    padding: 100px;
+    border-radius: 50px;
+}
+
+#bookcover:hover{
+    padding: 150px;
+    transition: padding, 0.5s;
+}
+
+.continue{
+    color: white;
+    background-color: #F2D225;
+    border: 1px solid #F2D225;
+    border-radius: 10px;
+    font-family: Nunito, sans-serif;
+    font-size: medium;
+    padding: 10px;
+    outline: none;
+}
+
+.continue:hover{
+    cursor: pointer;
+    opacity: 80%;
+    width: 70%;
+    transition: width, 0.5s;
+}
+
+h1{
+    font-family: Nunito, sans-serif;
+    font-weight: bold;
+}
