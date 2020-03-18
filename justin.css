@@ -1,8 +1,28 @@
+/* Body */
+#big_body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: 0px;
+    margin: 0;
+}
+/* Body End */
+
+
+
+
+/* Front Page */
 #front{
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
+background-image: url(images/scene2.jpg);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
 }
 
 #bookcover{
@@ -10,7 +30,7 @@ align-items: center;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid rgb(170, 170, 170);
+    background-color: white;
     padding: 100px;
     border-radius: 50px;
 }
@@ -20,7 +40,7 @@ align-items: center;
     transition: padding, 0.5s;
 }
 
-.continue{
+.start{
     color: white;
     background-color: #F2D225;
     border: 1px solid #F2D225;
@@ -31,14 +51,63 @@ align-items: center;
     outline: none;
 }
 
-.continue:hover{
+.start:hover{
     cursor: pointer;
-    opacity: 80%;
-    width: 70%;
-    transition: width, 0.5s;
+    color: rgb(163, 142, 24);
+    transition: color, 0.7s;
 }
 
+/* Front Page End */
+
+/* Story */
+
+#picture{
+    height: 400px;
+    width: 700px;
+    background-image: url(images/scene0.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 250px;
+}
+
+#item_bar{
+    background-color: #0D6BEA;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    bottom: 200;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* Story End */
+
+/* Typography */
 h1{
     font-family: Nunito, sans-serif;
     font-weight: bold;
+    color: #FF5D5D;
+}
+
+h2{
+    font-family: Nunito, sans-serif;
+    font-weight: bold;  
+}
+
+p{
+    font-family: Nunito, sans-serif;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-style: normal;
+    font-size: 20px;
+}
+
+#description{
+    font-family: Nunito, sans-serif;
+    color: #FF5D5D;
 }
