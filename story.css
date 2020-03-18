@@ -1,0 +1,22 @@
+#footer{
+ position: absolute;
+ left: 0;
+ bottom: 0;
+ width: 100%;
+ height: 200px;
+ background-color:red;
+}
+
+#next{
+    position: fixed;
+    bottom: 90px;
+    width:90px;
+    height:50px;
+    background-color:#FE6714;
+    border:0px #FE6714 solid;
+    cursor: pointer;
+    color:white;
+    font-size:21px;
+    left: 100px;
+    text-align: center;
+}
