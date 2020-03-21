@@ -74,6 +74,21 @@ background-repeat: no-repeat;
     transition: background-image, 0.5s;
 }
 
+#item1{
+    opacity: 100%;
+    transition: opacity, 0.5s;
+}
+
+#item2{
+    opacity: 50%;
+    transition: opacity, 0.5s;
+}
+
+#item3{
+    opacity: 50%;
+    transition: opacity, 0.5s;
+}
+
 
 .item:hover{
     cursor: pointer;
@@ -133,7 +148,7 @@ h1{
     color: #FF5D5D;
 }
 
-h2{
+#instructions{
     font-family: Nunito, sans-serif;
     font-weight: bold;
     display: inline;
