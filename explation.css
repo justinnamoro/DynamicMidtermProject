@@ -1,0 +1,43 @@
+h1{
+    line-height: 80px; 
+    text-align: center;  
+     font-family: Nunito, sans-serif;
+     font-weight: bold;
+     color: #FF5D5D;
+}
+#picture{
+width: 100%;
+display: flex;
+justify-content: space-evenly;
+position: absolute;
+bottom: 200;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+#footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  
+}
+
+#button{
+    color: white;
+    font-family: Nunito, sans-serif;
+    background-color: #F2D225;
+    border: #F2D225;
+    border-radius: 10px;
+    font-size: x-large;
+    padding: 20px;
+   margin-top: 40px;
+   margin-left: 650px;
+   
+}
+
+
